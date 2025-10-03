@@ -1,1 +1,23 @@
-Today during the challenges the part which i got stuck at was the challenge 2 where we use the vector 3 node , I was trying to find a node containing rgb variables not x , y , z . Second problem i faced was the T variable in lerp. To fix that I made a public variable which I can change from inspector and assigned it to T in lerp which controls the blend value between the 2 textures .
+This project contains a single Shader Graph that implements 3 lighting shaders: 
+- Simple Diffuse Lighting  
+- Diffuse Lighting with Ambient  
+- Simple Specular  
+
+Each shader can be toggled on or off individually, or combined.  
+
+
+This is a screenshot of what is in the project from left to right top row then bottom row-
+1. Diffuse only
+2. Ambient only
+3. Specular only
+4. Diffuse + Ambient
+5. Diffuse + Specular
+6. Ambient + Specular
+7. None (all toggles off)
+8. All three combined
+
+<img width="1737" height="1105" alt="Screenshot 2025-10-03 003209" src="https://github.com/user-attachments/assets/6503a21b-849c-428a-8757-811a82b16119" />
+
+This is how the main shader graph looks - 
+
+<img width="1917" height="1199" alt="Screenshot 2025-10-03 003454" src="https://github.com/user-attachments/assets/58a059f7-f998-4c3f-8d49-f66e9d85c7a6" />
